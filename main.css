@@ -1,9 +1,5 @@
 
-.wrapper {
-
-}
-
-.mono-title {
+.title {
 	font-family: 'Muli', sans-serif;
 	font-size: 16px;
 	color: #000000;
@@ -11,10 +7,14 @@
 }
 
 
-.intro-text {
+.article {
 	font-family: 'Playfair Display', serif;
 	font-size: 38px;
 	color: #000000;
 	letter-spacing: 1px;
 	line-height: 70px;
+}
+
+.icon {
+	font-size: 20px;
 }
