@@ -1,6 +1,77 @@
+
+body {
+	margin: 0 auto;
+	font-family: 'Fira Sans', 'Helvetica', sans-serif;
+	background-color: white;
+	/*background-image: url("img/background.png");*/
+	background: url(img/saopaulomod.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+h1 {
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	font-weight: 500;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	color: white;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 3em;
+	font-weight: 500;
+	color: white;
+	display:inline-block
+}
+
+h3 {
+	font-size: 1em;
+	margin-bottom: 3em;
+	font-weight: 300;
+	color: white;
+	text-align: center;	
+}
+
+.article {
+	font-weight: 400;
+	color: #14FFD6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+	text-decoration: none;
+	color: #14FFD6;
+	font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding: 10px 20px 30px;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1280px) {
-	.article {
-		font-size: 3.8em;
+	p {
+		font-size: 6em;
 	}
 	body {
   		max-width: 90vw;
@@ -8,10 +79,13 @@
 	.icon {
 		font-size: 0.8em;
 	}
+	li {
+    float: left;
+	}
 }
 @media (min-width: 488px) and (max-width: 1279px) {
-	.article {
-		font-size: 3em;
+	p {
+		font-size: 4.5em;
 	}
 	body {
   		max-width: 95vw;
@@ -19,10 +93,13 @@
 	.icon {
 		font-size: 0.7em;
 	}
+	li {
+    float: left;
+	}
 }
 @media screen and (max-width: 487px) {
-	.article {
-		font-size: 2.2em;
+	p {
+		font-size: 2.5em;
 	}
 	body {
   		max-width: 100vw;
@@ -30,42 +107,9 @@
 	.icon {
 		font-size: 0.6em;
 	}
+	li {
+        float: none;
+	}
 }
 
-body {
-	margin: 0 auto;
-	font-family: 'Fira Sans', sans-serif;
-}
-
-img {
-	max-width: 10vw;
-	margin: 50px 30px 50px 0;
-}
-
-.article {
-	font-weight: 300;
-	color: #14222F;
-	letter-spacing: -.05em;
-}
-
-p {
-	margin-bottom: 30px;
-}
-
-a {
-	text-decoration: none;
-	color: #9BA3A3;
-}
-
-a:hover {
-	text-decoration: none;
-	color: #14222F;
-}
-
-nav {
-	text-transform: uppercase;
-	font-size: 1.2em;
-	margin-right: 30px;
-	margin-bottom: 30px;
-
-}
+	
